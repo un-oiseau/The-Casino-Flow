@@ -1,0 +1,383 @@
+@media (max-width: 1280px) {
+    .tgf-container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+@media screen and (max-width: 991px) {
+    header nav ul,
+    header .tgf-container,
+    .footer-nav.flex-box,
+    .top_table .table_top5 tbody tr {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .home .che_list {
+        margin-bottom: 40px;
+    }
+    .top_table .table_top5 tbody tr {
+        display: block;
+    }
+    .top_table .table_top5 tbody tr td {
+        width: 100%;
+        max-width: inherit!important;
+        height: auto;
+        max-height: auto;
+    }
+    .top_table {
+        padding-top: 0;
+    }
+    .top_table * {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .top_table td[data-type=payouts] > p {
+        text-align: left;
+    }
+    .top_table h1 {
+        text-align: left;
+    }
+    .peaky-box .top_table .table_top5 td[data-type="button"] {
+        padding: 0;
+    }
+    header nav {
+        display: none;
+    }
+    header nav li {
+        margin-right: 0;
+    }
+    header nav ul li,
+    header nav ul li a,
+    .footer-nav li,
+    .footer-nav li a {
+        width: 100%;
+    }
+    header nav ul::after {
+        display: none;
+    }
+    header nav a {
+        padding: .75rem 0;
+    }
+    .menu-item-has-children::before {
+        content: url(../images/up-arrow.svg);
+        position: absolute;
+        right: 15px;
+        top: 8px;
+        transform: rotate(180deg);
+        transition: all .3s;
+    }
+    .menu-item-has-children.opened::before {
+        transform: rotate(0deg);
+    }
+    .sub-menu {
+        /* display: block; */
+        position: static;
+        padding-left: 1rem;
+        border-top: 0;
+    }
+    .sub-menu {
+        background: inherit;
+    }
+    .content-box ul {
+        column-count: 1;
+    }
+    .sub-menu li a, .sub-menu li a:hover, .sub-menu li a:visited {
+        color: #FFFFFF;
+    }
+    .footer-nav li {
+        margin-bottom: .7rem;
+    }
+    .navbar-toggler {
+        display: block;
+    }
+    .inner-content button {
+        margin-bottom: 1.5rem;
+    }
+    blockquote, .content-box {
+        width: 100%;
+    }
+    .bordered {
+        padding: 15px;
+    }
+    .fairness p, .title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    h1, .h1 {
+        font-size: 32px;
+        line-height: 39px;
+    }
+    h2, .h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    h3, .h3 {
+        font-size: 24px;
+        line-height: 26px;
+    }
+    h4, .h4 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    h5, .h5 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    h6, .h6 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .cas-item {
+        text-align: center;
+    }
+    .brand-slot-page table .text-right {
+        text-align: right;
+    }
+    .cas-main, .cas-options {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .cas-logo {
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+    .cas-title {
+        margin: 0 auto 25px!important;
+    }
+    .box-head .f-right {
+        float: right;
+    }
+    .counter {
+        position: absolute;
+        left: 30px;
+        top: 30px;
+    }
+    .top_table .table_top5 tbody tr td {
+        width: 100%;
+    }
+    main h2, main h3, main h4,
+    .brand-general h3 {
+        margin-top: .5rem;
+        margin-bottom: .75rem;
+    }
+    .mt-3 {
+        margin-top: 1.5rem;
+    }
+    .home .wp-block-table thead {
+        padding: 0 15px;
+    }
+    .home .wp-block-table table tr td:first-child {
+        padding-right: 15px;
+    }
+    .cas-vertical .cas-horizontal .rate {
+        left: inherit;
+    }
+    .home h1, .home h2 {
+        margin-top: 1rem;
+    }
+    .casino-cas-item {
+        margin-bottom: 30px;
+    }
+    .exp-horizontal .flex-box {
+        text-align: center;
+    }
+    .brand-slot-page .stars {
+        margin-top: 15px;
+    }
+    .flag-top::after,
+    .flag-top::before {
+        left: 20px;
+    }
+    .top_table .table_top5 td[data-type="logo"] {
+        max-width: inherit;
+    }
+    .btn-tgf, input[type=submit], .wp-block-button__link, main button {
+        font-size: 18px;
+    }
+    .slot-general {
+        margin-top: 1.5rem;
+    }
+    .top_table .box-head {
+        display: none;
+    }
+    .cas-item .box-head h5 {
+        padding-left: 60px;
+    }
+    .flag-top {
+        padding-top: 80px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    header nav {
+        display: block;
+    }
+    .btn-tgf, main button {
+        white-space: nowrap;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+    .fast-casino .cas-logo {
+        width: 100%;
+        height: 100px;
+        overflow: hidden;
+    }
+    .fast-casino .cas-logo img {
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+    }
+    .home main .content-box ul li {
+        width: 49%;
+    }
+    .home main .content-box ul li:nth-child(odd) {
+        margin-right: 2%;
+    }
+    .home main .content-box ul li:nth-child(odd)::before {
+        display: block;
+        left: inherit;
+        right: -2%;
+        top: 50%;
+        background: #FFFFFF;
+        width: 2px;
+        height: 20px;
+        border-radius: 0;
+        transform: translateY(-50%);
+    }
+    .home .expert-box {
+        width: 45%;
+    }
+    .cas-item .box-content .col-4:not(:last-child),
+    .cas-item .box-content .col-3:not(:last-child) {
+        border-right: 1px solid #5F4BB6;
+    }
+    .top_table .table_top5 td[data-type="row-number"]::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 15px;
+        height: calc(100% - 30px);
+        width: 1px;
+        background: #5F4BB6;
+    }
+    .col-1 {
+        -ms-flex: 0 0 8.333333%;
+        flex: 0 0 8.333333%;
+        max-width: 8.333333%;
+    }
+    .col-2 {
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+    }
+    .col-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .col-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .col-5 {
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+    .col-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .col-7 {
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+    .col-8 {
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+    .col-9 {
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .col-10 {
+        -ms-flex: 0 0 83.333333%;
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
+    }
+    .col-11 {
+        -ms-flex: 0 0 91.666667%;
+        flex: 0 0 91.666667%;
+        max-width: 91.666667%;
+    }
+    .col-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home .align-bottom .tgf-row {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .ratings-row .col-3 {
+        -ms-flex: 0 0 28%;
+        flex: 0 0 28%;
+        max-width: 28%;
+    }
+    .ratings-row .col-3:nth-child(2) {
+        margin: 0 8%;
+    }
+    .tgf-box p:last-child,
+    blockquote p:last-child {
+        margin-bottom: 0;
+    }
+    .tgf-box ul > li:last-child,
+    .tgf-box ol > li:last-child {
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 767px) {
+    .search-form input {
+        width: 100%;
+    }
+    .tgf-box .box-head small {
+        font-size: 0;
+    }
+    .notfound-box p {
+        font-size: 140px;
+    }
+    .flex-box:not(.footer-logo) {
+        display: block;
+    }
+    .cas-vertical .box-right {
+        position: absolute;
+        top: 0;
+        right: 15px;
+    }
+    .cas-vertical .box-head h5 {
+        margin-top: 55px;
+        padding-left: 0!important;
+    }
+    .box-head .box-right img:first-child {
+        top: -7px;
+    }
+    .cas-horizontal .rate-stars span:last-child {
+        position: relative;
+        top: -6px;
+    }
+    footer .flex-box img {
+        margin-right: 15px;
+    }
+}
